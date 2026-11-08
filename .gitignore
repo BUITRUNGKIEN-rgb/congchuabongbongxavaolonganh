@@ -1,0 +1,25 @@
+# Python / virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+# Dataset and experimental output must not be pushed publicly by default
+dataset/
+dataset-resized/
+data/
+FAKE_TEST_IMAGES/
+AIX_AI02_EXPERIMENT/
+AIX_AI02_AUDIT/
+experimental_results/
+# local editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Large pretrained checkpoints (use LFS or separate hosting when needed)
+*.pth
+*.pt
+*.onnx
